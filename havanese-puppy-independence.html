@@ -191,6 +191,43 @@ header.sc-topbar nav{display:block!important}header.sc-topbar .sc-topbar-nav{dis
 .sidebar{display:grid!important;position:static!important;gap:16px;margin-top:24px}aside[class*="sidebar"]:not(.sidebar){display:block!important;position:static!important;margin-top:24px}.page-wrap{padding:0 16px 40px}.main-content{grid-template-columns:minmax(0,1fr)!important}.main-content>article{padding:22px!important}.main-content>article:first-of-type h2{font-size:1.5rem!important}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important}}
 </style>
+
+<style id="sidebar-follow-20261025">
+[data-follow-sidebar]{display:grid!important;gap:16px;position:sticky!important;top:96px!important;align-self:start!important;
+height:fit-content!important;max-height:calc(100dvh - 112px)!important;overflow-y:auto!important;
+min-width:0;overscroll-behavior:contain;scrollbar-width:thin}
+[data-follow-parent]{overflow:visible!important;align-items:start}
+.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:32px;
+width:min(1184px,calc(100% - 32px));margin:32px auto;align-items:start}
+[data-follow-content]{width:auto!important;max-width:100%!important;min-width:0;margin:0!important}
+.follow-sidebar-panel{padding:18px;border:1px solid var(--line,#d8d9d0);border-radius:12px;
+background:var(--soft,#f4f5ef);color:var(--ink,#27382d);margin:0 0 16px}
+.follow-sidebar-panel h2{font:700 .85rem/1.4 system-ui;margin:0 0 12px}
+.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}
+.follow-sidebar-panel a{display:block;padding:8px 0;color:inherit;text-decoration:underline;
+overflow-wrap:anywhere;line-height:1.45}
+@media(max-width:900px){[data-follow-sidebar]{position:static!important;top:auto!important;
+max-height:none!important;height:auto!important;overflow:visible!important;width:100%!important;max-width:100%;float:none!important}
+.follow-sidebar-layout{grid-template-columns:minmax(0,1fr);gap:24px}}
+</style>
+
+<!-- social-cards:start -->
+<meta property="og:title" content="Havanese Puppy Independence: When Clinginess Eases">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://havanese-club.github.io/havanese-puppy-independence.html">
+<meta property="og:description" content="When does a Havanese puppy become less clingy? Compare owner milestones, check readiness, and build naps and alone-time skills with a gradual training plan.">
+<meta property="og:image" content="https://havanese-club.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:secure_url" content="https://havanese-club.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="cream Havanese with a silky coat sitting on a garden bench">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Havanese Puppy Independence: When Clinginess Eases">
+<meta name="twitter:description" content="When does a Havanese puppy become less clingy? Compare owner milestones, check readiness, and build naps and alone-time skills with a gradual training plan.">
+<meta name="twitter:image" content="https://havanese-club.github.io/assets/social-share-20261025.jpg">
+<meta name="twitter:image:alt" content="cream Havanese with a silky coat sitting on a garden bench">
+<!-- social-cards:end -->
 </head>
 <body>
 <header class="sc-topbar">
@@ -221,7 +258,7 @@ header.sc-topbar nav{display:block!important}header.sc-topbar .sc-topbar-nav{dis
     <p class="lead">A realistic readiness timeline and a kind, observation-based plan for practicing time apart.</p>
   </div>
 </section>
-<div class="layout">
+<div class="layout" data-follow-parent="true">
   <article class="article"><nav class="article-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog.html">Blog</a><span>›</span><span aria-current="page">Havanese Puppy Independence</span></nav><p class="meta">Draft prepared: 2026-10-14 · Havanese Club · Editorial review pending</p><p>If you are asking <strong>when does a Havanese puppy become less clingy</strong>, first decide whether you mean taking naps independently, staying behind while you move around, or relaxing while you leave home. Those are different skills, and a puppy can be good at one while needing help with another. Wanting a little breathing room does not make you a bad owner.</p>
 <p><strong>Quick answer:</strong> There is no verified Havanese-specific age when clinginess switches off. Owner reports include independent napping around six months and greater freedom around eight or nine months, but also much later progress. Use your puppy’s demonstrated comfort to choose the next training step; do not turn those ages into deadlines or home-alone allowances.</p>
 <section id="independence-checker" aria-labelledby="checker-heading">
@@ -322,7 +359,7 @@ return 'Review the full observed departure. Repeat an easy absence before making
 }
 document.getElementById('ind-button').addEventListener('click',function(){document.getElementById('ind-result').textContent=independencePlan(document.getElementById('ind-skill').value,document.getElementById('ind-response').value);});
 </script></article>
-  <aside class="sidebar"><section class="sidebar-panel"><h3>About this site</h3><p>Sofia Navarro writes about Havanese grooming, temperament and small-dog care.</p><p><a href="/about.html">More about us</a></p></section>
+  <aside class="sidebar" data-follow-sidebar="existing"><section class="sidebar-panel"><h3>About this site</h3><p>Sofia Navarro writes about Havanese grooming, temperament and small-dog care.</p><p><a href="/about.html">More about us</a></p></section>
     
     
   </aside>
