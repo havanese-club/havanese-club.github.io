@@ -3,381 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Havanese Guide — Care, Facts &amp; National Day</title>
-<meta name="description" content="Your complete resource for Havanese lovers. Breed facts, care tips, national day celebration guide and more.">
-<link rel="canonical" href="https://havanese-club.github.io/">
+<title>Havanese Guide: Puppy, Daily Life and Travel Tips from Real Owners</title>
+<meta name="description" content="Practical Havanese guides on potty training, coat care, daily walks, grooming schedule, size expectations and travel tips, with a packing list generator for trips with your dog.">
 <meta name="robots" content="index, follow">
-<style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: 'Bookman Old Style', 'URW Bookman L', serif;
-    font-size: 16px;
-    line-height: 1.7;
-    color: #222;
-    background: #f8f8f8;
-  }
-  a { color: #1e40af; text-decoration: none; }
-  a:hover { text-decoration: underline; color: #18338c; }
-
-  /* ── Top bar ── */
-  .topbar {
-    background: #1e40af;
-    color: #fff;
-    padding: 0 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  }
-  .topbar-inner {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 54px;
-  }
-  .topbar-brand {
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 0.01em;
-  }
-  .topbar-nav {
-    display: flex;
-    gap: 4px;
-    list-style: none;
-  }
-  .topbar-nav a {
-    color: rgba(255,255,255,0.88);
-    font-size: 0.88rem;
-    padding: 6px 12px;
-    border-radius: 4px;
-    transition: background 0.15s;
-  }
-  .topbar-nav a:hover {
-    background: rgba(255,255,255,0.15);
-    color: #fff;
-    text-decoration: none;
-  }
-  @media(max-width:600px) {
-    .topbar-nav { display: none; }
-  }
-
-  /* ── Breadcrumb ── */
-  .breadcrumb {
-    background: #fff;
-    border-bottom: 1px solid #e5e7eb;
-  }
-  .breadcrumb-inner {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 8px 20px;
-    font-size: 0.82rem;
-    color: #6b7280;
-  }
-  .breadcrumb-inner a { color: #1e40af; }
-  .breadcrumb-inner span { margin: 0 5px; }
-
-  /* ── Layout wrapper ── */
-  .page-wrap {
-    max-width: 1120px;
-    margin: 28px auto;
-    padding: 0 20px 64px;
-    display: grid;
-    grid-template-columns: 1fr 300px;
-    gap: 28px;
-    align-items: start;;grid-template-columns:minmax(0, 1fr) 300px;gap:26px;padding-left:22px;padding-right:22px;}
-  @media (max-width: 700px) {
-    .page-wrap { grid-template-columns: 1fr; }
-    .sidebar { display: none; }
-  }
-
-  /* ── Main ── */
-  .main-content {
-    background: #fff;
-    border-radius: 8px;
-    padding: 28px 28px 32px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-  }
-  .main-content h1 {
-    font-size: 1.75rem;
-    color: #18338c;
-    margin-bottom: 10px;
-    line-height: 1.3;
-    border-bottom: 3px solid #1e40af;
-    padding-bottom: 12px;
-  }
-  .main-content .intro {
-    color: #555;
-    margin-bottom: 28px;
-    font-size: 1rem;
-  }
-  .article-card {
-    border: 1px solid #e5e7eb;
-    border-left: 4px solid #1e40af;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 6px;
-    background: #fafafa;
-    transition: box-shadow 0.2s;
-  }
-  .article-card:hover { box-shadow: 0 3px 10px rgba(0,0,0,0.08); }
-  .article-card h2 {
-    font-size: 1.1rem;
-    margin-bottom: 6px;
-  }
-  .article-card h2 a { color: #18338c; }
-  .article-card .meta { color: #9ca3af; font-size: 0.8rem; margin-bottom: 6px; }
-  .article-card p { color: #555; font-size: 0.93rem; margin: 0; }
-
-  /* ── Categories ── */
-  .categories {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 24px;
-  }
-  .cat-tag {
-    background: #1e40af;
-    color: #fff;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 600;
-  }
-
-  /* ── Sidebar ── */
-  .sidebar { position: sticky; top: 70px; }
-  .sidebar-widget {
-    background: #1e40af;
-    border-radius: 10px;
-    padding: 22px 18px;
-    color: #fff;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.13);
-    margin-bottom: 20px;
-  }
-  .sidebar-widget h3 { font-size: 1rem; margin-bottom: 8px; font-weight: 700; }
-  .sidebar-widget p { font-size: 0.86rem; margin-bottom: 12px; opacity: 0.9; }
-  .sidebar-widget input[type="email"] {
-    width: 100%; padding: 9px 11px; border: none; border-radius: 5px;
-    font-size: 0.88rem; margin-bottom: 8px; outline: none;
-  }
-  .sidebar-widget button {
-    width: 100%; padding: 10px; background: #fff; color: #1e40af;
-    border: none; border-radius: 5px; font-weight: 700; font-size: 0.88rem;
-    cursor: pointer;
-  }
-  .sidebar-widget .disclaimer {
-    font-size: 0.7rem; opacity: 0.65; margin-top: 8px; text-align: center;
-  }
-  .sidebar-about {
-    background: #fff; border-radius: 8px; padding: 18px 16px;
-    font-size: 0.88rem; color: #444; line-height: 1.6;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-    margin-bottom: 20px;
-  }
-  .sidebar-about strong { color: #18338c; display: block; margin-bottom: 6px; font-size: 0.95rem; }
-  .sidebar-links {
-    background: #fff; border-radius: 8px; padding: 16px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-  }
-  .sidebar-links h4 { font-size: 0.9rem; color: #18338c; margin-bottom: 10px; }
-  .sidebar-links ul { list-style: none; }
-  .sidebar-links li { padding: 4px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.86rem; }
-  .sidebar-links li:last-child { border: none; }
-  .sidebar-links a { color: #1e40af; }
-
-  /* ── Footer ── */
-  .footer {
-    background: #18338c;
-    color: rgba(255,255,255,0.75);
-    text-align: center;
-    padding: 24px 16px;
-    font-size: 0.82rem;
-    margin-top: 40px;
-  }
-  .footer-nav { margin-bottom: 8px; }
-  .footer-nav a {
-    color: rgba(255,255,255,0.85);
-    margin: 0 10px;
-    font-size: 0.85rem;
-  }
-
-  /* ── Bottom mobile bar (wariant bottom_mobile) ── */
-  #bottom-bar input[type="email"] { flex: 1; min-width: 0; }
-  @media (max-width: 480px) {
-    #bottom-bar span { display: none; }
-  }
-</style>
-<style id="sc-font">body{font-family:'Bookman Old Style', 'URW Bookman L', serif}body h1,body h2,body h3{font-family:'Bookman Old Style', 'URW Bookman L', serif}</style>
-<style id="site-chrome">
-:where(body){margin:0}.sc-reset,header.sc-topbar,footer.sc-footer{box-sizing:border-box}
-[class*="wrap"],[class*="inner"],[class*="layout"],[class*="container"]{box-sizing:border-box}
-/* ── Top bar ── */
-  .sc-topbar{
-    background: #1e40af;
-    color: #fff;
-    padding: 0 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  }
-.sc-topbar-inner{
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 54px;
-  }
-.sc-topbar-brand{
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 0.01em;
-  }
-.sc-topbar-nav{
-    display: flex;
-    gap: 4px;
-    list-style: none;
-  }
-.sc-topbar-nav a{
-    color: rgba(255,255,255,0.88);
-    font-size: 0.88rem;
-    padding: 6px 12px;
-    border-radius: 4px;
-    transition: background 0.15s;
-  }
-.sc-topbar-nav a:hover{
-    background: rgba(255,255,255,0.15);
-    color: #fff;
-    text-decoration: none;
-  }
-@media(max-width:600px) {
-    .sc-topbar-nav { display: none; }}
-/* ── Footer ── */
-  .sc-footer{
-    background: #18338c;
-    color: rgba(255,255,255,0.75);
-    text-align: center;
-    padding: 24px 16px;
-    font-size: 0.82rem;
-    margin-top: 40px;
-  }
-.sc-footer-nav{ margin-bottom: 8px; }
-.sc-footer-nav a{
-    color: rgba(255,255,255,0.85);
-    margin: 0 10px;
-    font-size: 0.85rem;
-  }
-.sc-topbar a,.sc-footer a{text-decoration:none}
-/* links blue: the most recognisable clickable colour (owner 2026-10-13); not the bar, footer, buttons or cards */
-a:not(.sc-topbar *):not(.sc-footer *):not(header *):not(footer *):not([class*="button"]):not([class*="btn"]):not([class*="-card"]):not([class*="badge"]):not(.sidebar-link):not(.sc-topbar-brand):not([style*="background"]){color:#0066cc!important}a:not(.sc-topbar *):not(.sc-footer *):not(header *):not(footer *):not([class*="button"]):not([class*="btn"]):not([class*="-card"]):not([class*="badge"]):not(.sidebar-link):not(.sc-topbar-brand):not([style*="background"]):visited{color:#0052a3!important}a:not(.sc-topbar *):not(.sc-footer *):not(header *):not(footer *):not([class*="button"]):not([class*="btn"]):not([class*="-card"]):not([class*="badge"]):not(.sidebar-link):not(.sc-topbar-brand):not([style*="background"]):hover{text-decoration:underline}
-/* site name always readable on the bar, whatever the article CSS does with links (owner 2026-10-13) */
-.sc-topbar .sc-topbar-brand,.sc-topbar .sc-topbar-brand:visited,.sc-topbar .sc-topbar-brand:hover{color:#fff!important}
-@media(max-width:700px){header[class^="sc-"] [class*="inner"],header[class^="sc-"]{flex-wrap:wrap;height:auto}header[class^="sc-"] nav,header[class^="sc-"] [class*="nav"]{display:flex;flex-wrap:wrap;gap:6px 14px}header[class^="sc-"] [class*="inner"]{padding-top:8px;padding-bottom:8px}main,article,aside,[class*="wrap"]>*,[class*="layout"]>*,[class*="content"],[class*="column"]{min-width:0!important;max-width:100%}table{display:block!important;width:auto!important;max-width:100%!important;overflow-x:auto}img,iframe,video{max-width:100%;height:auto}h1,h2,h3,p,li{overflow-wrap:anywhere}[class*="wrap"],[class*="layout"],[class*="rich"],[class*="content"]{grid-template-columns:minmax(0,1fr)!important}article *,[class*="content"] *,[class*="rich"] *{box-sizing:border-box!important;max-width:100%!important;min-width:0!important}table{overflow-x:auto!important}}
-</style>
-<style id="sc-havanese-design">
-:root{--p:#fff7f1;--i:#1b3a42;--m:#56676b;--l:#f3dccf;--d:#1f4e5a;--od:#fff3ea;--a:#f28f6b;--ai:#b04a27;--card:#ffffff;--bar:#fff7f1;--bart:#1f4e5a;--r:8px;--hf:'Trebuchet MS',Arial,sans-serif;--bf:Georgia,'Times New Roman',serif;--p2:#fde6dc}
-body{background:var(--p)!important;color:var(--i);font-family:var(--bf)!important}html body :is(h1,h2,h3,h4){font-family:var(--hf)!important}
-a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--ai);outline-offset:3px}
-header.sc-topbar{background:var(--bar)!important;color:var(--bart);box-shadow:none;border-bottom:3px solid var(--a);position:sticky;top:0;z-index:100}
-header.sc-topbar .sc-topbar-inner{max-width:1240px;height:auto;min-height:68px;padding:10px 28px;gap:18px}
-header.sc-topbar a.sc-topbar-brand:is(#_,a),header.sc-topbar a.sc-topbar-brand:is(#_,a):visited{color:var(--bart)!important;font:800 1.4rem/1.1 var(--hf);letter-spacing:-.02em;text-transform:none}
-header.sc-topbar .sc-topbar-nav{gap:2px;margin:0;padding:0;flex-wrap:wrap}
-header.sc-topbar .sc-topbar-nav a{display:block;color:var(--bart);padding:10px 13px;min-height:44px;border-radius:var(--r);font-weight:600;font-size:.86rem}
-header.sc-topbar .sc-topbar-nav a:hover,header.sc-topbar .sc-topbar-nav a[aria-current="page"]{background:var(--bart);color:var(--bar);text-decoration:none}
-.breadcrumb{background:transparent!important;border:0!important}.breadcrumb-inner{max-width:1240px!important;margin:0 auto;padding:14px 28px;font-size:.78rem;color:var(--m)}
-.sd-cover{position:relative;max-width:1184px;margin:6px auto 34px;overflow:hidden;border-radius:var(--r)}
-.sd-cover h1{font-size:clamp(2.4rem,5vw,4.4rem);line-height:1.04;letter-spacing:-.03em;margin:0 0 18px;color:inherit;text-transform:none;text-wrap:balance}
-.sd-cover .intro{font-size:1.06rem;line-height:1.75;margin:0 0 20px;max-width:46ch;color:inherit;opacity:.88}
-.sd-cover .categories{display:flex;flex-wrap:wrap;gap:8px;margin:0}
-.sd-cover .cat-tag{border-radius:var(--r);padding:7px 12px;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--card);color:var(--ai);border:1px solid var(--a)}
-.sd-art{min-height:220px;background:radial-gradient(circle at 50% 0,transparent 14px,#f28f6b 15px 18px,transparent 19px) 0 0/40px 22px}
-.page-wrap{max-width:1240px;margin:0 auto;padding:0 28px 56px;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;align-items:start}
-.main-content{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-content:start;background:transparent!important;box-shadow:none!important;padding:0!important;border:0!important}
-.main-content>:not(article){grid-column:1/-1}
-.main-content>article{position:relative;min-width:0;margin:0!important;padding:26px!important;background:var(--card)!important;border:1px solid var(--l)!important;border-radius:var(--r)!important;box-shadow:none;transition:transform .15s,box-shadow .15s}
-.main-content>article h2{font-size:1.3rem!important;line-height:1.25!important;margin:0 0 12px!important}
-.main-content>article h2 a::after{content:"";position:absolute;inset:0}
-.main-content>article p{color:var(--m)!important;font-size:.92rem!important;line-height:1.7}
-.main-content>article p:first-of-type{color:var(--ai)!important;font-size:.72rem!important;letter-spacing:.08em;text-transform:uppercase;font-weight:700}
-.sidebar :is(.sidebar-about,.sidebar-links,.sidebar-panel){background:var(--card)!important;border:1px solid var(--l)!important;border-radius:var(--r)!important;box-shadow:none!important}
-.sidebar :is(h3,h4){color:var(--ai)!important;font-size:.76rem!important;letter-spacing:.1em;text-transform:uppercase}
-.sidebar-about strong{color:var(--i)}
-.hero{background:var(--p2)!important;color:#1b3a42!important;border-bottom:4px solid var(--a)}
-.hero h1{color:#1b3a42!important;letter-spacing:-.02em;text-transform:none}.hero p{color:#1b3a42!important;opacity:.9}
-.layout{max-width:1240px!important}.hero-inner{max-width:1240px!important;padding-left:22px;padding-right:22px}
-.article,article.article{background:var(--card)!important;border:1px solid var(--l);border-radius:var(--r)!important;box-shadow:none!important}
-.article h2{color:var(--i);border-bottom:2px solid var(--a);padding-bottom:6px}.article h3{color:var(--i)}
-.article th{background:var(--p2)!important;color:var(--i)!important}
-.article blockquote{border-left:4px solid var(--a);background:var(--p2);margin:22px 0;padding:14px 20px}
-.wrap .panel{background:var(--card)!important;border:1px solid var(--l);border-top:5px solid var(--a);border-radius:var(--r)!important;box-shadow:none!important}
-.wrap .panel h1{color:var(--i);text-transform:none}
-footer.sc-footer{background:var(--d)!important;color:var(--od)!important;border-top:6px solid var(--a);padding:34px 20px;margin-top:48px}
-footer.sc-footer a{color:var(--od)!important;display:inline-block;padding:10px 4px}
-
-.sd-cover{display:grid;grid-template-columns:1.4fr 1fr;background:var(--a);color:#1b3a42}
-.sd-cover-text{padding:56px 44px}.sd-cover h1{font-size:clamp(2.8rem,6vw,5.2rem)}.sd-cover .intro{background:var(--card);padding:14px 18px;border-radius:var(--r);opacity:1;color:var(--i)}
-.sd-art{background-color:var(--d)}
-.main-content>article{border:2px solid var(--i)!important;box-shadow:6px 6px 0 var(--a)}
-.main-content>article:first-of-type{grid-column:1/-1;padding:34px!important}
-.main-content>article:first-of-type h2{font-size:1.9rem!important}
-.main-content>article:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--a)}
-@media(max-width:900px){.page-wrap{grid-template-columns:minmax(0,1fr)!important}.main-content{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:760px){header.sc-topbar .sc-topbar-inner{display:block;padding:14px 16px}header.sc-topbar a.sc-topbar-brand:is(#_,a){display:block;margin-bottom:10px}
-header.sc-topbar nav{display:block!important}header.sc-topbar .sc-topbar-nav{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px}header.sc-topbar .sc-topbar-nav a{padding:11px 2px;text-align:center;font-size:.8rem}
-.breadcrumb-inner{padding:12px 16px}.sd-cover{display:block!important;margin:4px 16px 26px;padding:0}.sd-cover-text,.sd-cover.sd-centered{padding:30px 22px}
-.sd-cover h1{font-size:2.4rem}.sd-art{min-height:90px;margin:0;box-shadow:none}
-.sidebar{display:grid!important;position:static!important;gap:16px;margin-top:24px}aside[class*="sidebar"]:not(.sidebar){display:block!important;position:static!important;margin-top:24px}.page-wrap{padding:0 16px 40px}.main-content{grid-template-columns:minmax(0,1fr)!important}.main-content>article{padding:22px!important}.main-content>article:first-of-type h2{font-size:1.5rem!important}}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important}}
-</style>
-
-<!-- home-photo-20261025 -->
-<style id="home-photo-20261025">
-/* home-photo-20261025 */
-.home-editorial-photo{margin:1.25rem auto;max-width:1100px;min-width:0}
-.home-editorial-photo img{display:block;width:100%;max-width:100%;height:auto}
-.home-editorial-photo figcaption{font-size:.8rem;line-height:1.5;padding:.5rem .75rem;color:inherit}
-.sd-cover .sd-art.home-editorial-photo{display:block;margin:0;min-height:0;height:auto;opacity:1;background:none;
-border:0;box-shadow:none;transform:none;aspect-ratio:auto}
-.sd-cover .home-editorial-photo img{height:auto;min-height:0;object-fit:contain}
-.home-photo-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);
-align-items:center;gap:clamp(20px,4vw,60px);padding:clamp(20px,4vw,60px)}
-.home-photo-hero>.hero-inner,.home-photo-hero>.ps-in{margin:0;max-width:none;padding:0;min-width:0}
-.home-photo-hero>.home-editorial-photo{margin:0;width:100%}
-@media(max-width:760px){.home-photo-hero{grid-template-columns:minmax(0,1fr)}
-.sd-cover:has(>.home-editorial-photo){grid-template-columns:minmax(0,1fr)}}
-</style>
-
-<style id="sidebar-follow-20261025">
-[data-follow-sidebar]{display:grid!important;gap:16px;position:sticky!important;top:96px!important;align-self:start!important;
-height:fit-content!important;max-height:calc(100dvh - 112px)!important;overflow-y:auto!important;
-min-width:0;overscroll-behavior:contain;scrollbar-width:thin}
-[data-follow-parent]{overflow:visible!important;align-items:start}
-.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:32px;
-width:min(1184px,calc(100% - 32px));margin:32px auto;align-items:start}
-[data-follow-content]{width:auto!important;max-width:100%!important;min-width:0;margin:0!important}
-.follow-sidebar-panel{padding:18px;border:1px solid var(--line,#d8d9d0);border-radius:12px;
-background:var(--soft,#f4f5ef);color:var(--ink,#27382d);margin:0 0 16px}
-.follow-sidebar-panel h2{font:700 .85rem/1.4 system-ui;margin:0 0 12px}
-.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}
-.follow-sidebar-panel a{display:block;padding:8px 0;color:inherit;text-decoration:underline;
-overflow-wrap:anywhere;line-height:1.45}
-@media(max-width:900px){[data-follow-sidebar]{position:static!important;top:auto!important;
-max-height:none!important;height:auto!important;overflow:visible!important;width:100%!important;max-width:100%;float:none!important}
-.follow-sidebar-layout{grid-template-columns:minmax(0,1fr);gap:24px}}
-</style>
-
-<!-- social-cards:start -->
-<meta property="og:title" content="Havanese Guide — Care, Facts &amp; National Day">
+<link rel="canonical" href="https://havanese-club.github.io/">
+<link rel="icon" href="data:,">
+<meta property="og:title" content="Havanese Guide: Puppy, Daily Life and Travel Tips from Real Owners">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://havanese-club.github.io/">
-<meta property="og:description" content="Your complete resource for Havanese lovers. Breed facts, care tips, national day celebration guide and more.">
+<meta property="og:description" content="Practical Havanese guides on potty training, coat care, daily walks, grooming schedule, size expectations and travel tips, with a packing list generator for trips with your dog.">
 <meta property="og:image" content="https://havanese-club.github.io/assets/social-share-20261025.jpg">
 <meta property="og:image:secure_url" content="https://havanese-club.github.io/assets/social-share-20261025.jpg">
 <meta property="og:image:type" content="image/jpeg">
@@ -385,192 +19,310 @@ max-height:none!important;height:auto!important;overflow:visible!important;width
 <meta property="og:image:height" content="800">
 <meta property="og:image:alt" content="cream Havanese with a silky coat sitting on a garden bench">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Havanese Guide — Care, Facts &amp; National Day">
-<meta name="twitter:description" content="Your complete resource for Havanese lovers. Breed facts, care tips, national day celebration guide and more.">
+<meta name="twitter:title" content="Havanese Guide: Puppy, Daily Life and Travel Tips from Real Owners">
+<meta name="twitter:description" content="Practical Havanese guides on potty training, coat care, daily walks, grooming schedule, size expectations and travel tips, with a packing list generator for trips with your dog.">
 <meta name="twitter:image" content="https://havanese-club.github.io/assets/social-share-20261025.jpg">
 <meta name="twitter:image:alt" content="cream Havanese with a silky coat sitting on a garden bench">
-<!-- social-cards:end -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Havanese Guide", "url": "https://havanese-club.github.io/", "description": "Practical Havanese guides on potty training, coat care, daily walks, grooming schedule, size expectations and travel tips, with a packing list generator for trips with your dog."}</script>
+<link rel="preload" href="/assets/dm-serif-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/dm-serif-display-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/dm-sans-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+<style id="hcp-ds">
+@font-face{font-family:"DM Serif Display";font-style:normal;font-weight:400;font-display:swap;src:url(/assets/dm-serif-display-latin.woff2) format("woff2")}
+@font-face{font-family:"DM Serif Display";font-style:italic;font-weight:400;font-display:swap;src:url(/assets/dm-serif-display-latin-italic.woff2) format("woff2")}
+@font-face{font-family:"DM Sans";font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/dm-sans-latin.woff2) format("woff2")}
+@font-face{font-family:"DM Sans";font-style:italic;font-weight:400 700;font-display:swap;src:url(/assets/dm-sans-latin-italic.woff2) format("woff2")}
+:root{--ink:#0d3b4f;--text:#1a4d5e;--muted:#58707a;--line:#d4c9b5;--cream:#fef9ef;--card:#fffdf8;--turquoise:#00b4d8;--turk-dark:#0096b8;--coral:#ff6b6b;--coral-dk:#e05252;--link:#0066cc;
+--display:"DM Serif Display","Palatino Linotype","Book Antiqua",Georgia,serif;--body:"DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica Neue,Arial,sans-serif;--r:12px;--wrap:1180px}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--body);font-size:18px;line-height:1.7;color:var(--text);background:var(--cream)}
+a{color:var(--link)}a:visited{color:#0052a3}
+h1,h2,h3{font-family:var(--display);font-weight:400;color:var(--ink);line-height:1.1}
+img{max-width:100%;height:auto}
+.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;z-index:9;background:#fff;padding:10px 14px}
+.label{margin:0 0 14px;font:700 12px/1.4 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--coral-dk)}
+.label b{color:var(--ink)}
+.tag{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 24px;border-radius:999px;background:var(--turquoise);color:#fff;font:700 16px/1 var(--body);text-decoration:none;transition:background .15s,transform .15s,box-shadow .15s}
+.tag:hover{background:var(--turk-dark);transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,180,216,.3)}
+.tag::after{content:"\2192"}
+.tag.light,.tag.light:visited{background:#fff;color:var(--ink);border:2px solid var(--turquoise)}.tag.light:hover{background:var(--turquoise);color:#fff;border-color:var(--turquoise)}
+.link-arrow,.link-arrow:visited{color:var(--ink);font-weight:600;text-decoration:none;border-bottom:2px solid var(--coral);padding-bottom:2px;transition:color .15s,border-color .15s}
+.link-arrow:hover{color:var(--coral-dk);border-color:var(--ink)}
+.link-arrow::after{content:"\2197";font-weight:400;margin-left:2px}
+/* header — postcard-style bar */
+.sc-topbar{background:var(--cream);border-bottom:3px solid var(--turquoise);position:sticky;top:0;z-index:50}
+.sc-topbar-inner{max-width:var(--wrap);margin:0 auto;padding:0 28px;min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.sc-topbar-brand,.sc-topbar-brand:visited{color:var(--ink)!important;text-decoration:none;font:400 28px/1.1 var(--display);letter-spacing:-.02em;position:relative}
+.sc-topbar-brand::after{content:"";position:absolute;right:-20px;top:-4px;width:18px;height:22px;background:repeating-linear-gradient(-45deg,var(--coral) 0 2px,transparent 2px 6px);border-radius:0 3px 3px 0}
+.sc-topbar-nav{list-style:none;margin:0;padding:0;display:flex;gap:2px}
+.sc-topbar-nav a,.sc-topbar-nav a:visited{display:block;padding:10px 14px;border-radius:8px;color:var(--text);text-decoration:none;font-size:15px;font-weight:600}
+.sc-topbar-nav a:hover,.sc-topbar-nav a[aria-current]{background:var(--turquoise);color:#fff}
+.sc-topbar-nav .cta a{background:var(--coral);color:#fff}.sc-topbar-nav .cta a:hover{background:var(--coral-dk)}
+.sheet{display:none}
+@media(max-width:860px){.sc-topbar-nav{display:none}.sheet{display:block}
+.sheet summary{list-style:none;cursor:pointer;width:46px;height:46px;border-radius:50%;border:2px solid var(--coral);display:grid;place-content:center;gap:5px}
+.sheet summary::-webkit-details-marker{display:none}
+.sheet summary span{display:block;width:18px;height:2px;background:var(--coral)}
+.sheet[open] summary{background:var(--coral)}.sheet[open] summary span{background:#fff}
+.sheet-panel{position:fixed;left:0;right:0;top:68px;bottom:0;overflow:auto;background:var(--cream);padding:20px 20px 40px;border-top:2px solid var(--turquoise);counter-reset:s}
+.sheet-panel>a,.sheet-panel>a:visited{counter-increment:s;display:flex;align-items:baseline;gap:14px;padding:18px 4px;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none;font:400 26px/1.2 var(--display)}
+.sheet-panel>a::before{content:"0" counter(s);font:700 12px/1 var(--body);color:var(--coral-dk);letter-spacing:.1em}
+.sheet-panel>a:hover{color:var(--coral-dk)}
+.sheet-panel .minor{display:flex;flex-wrap:wrap;gap:6px 20px;padding:22px 4px 0}
+.sheet-panel .minor a{font-size:15px;color:var(--muted)}}
+/* footer — postcard back */
+.sc-footer{background:var(--cream);border-top:3px solid var(--turquoise);color:var(--muted);font-size:15px}
+.sc-footer-inner{max-width:var(--wrap);margin:0 auto;padding:40px 28px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:24px 48px;position:relative}
+.sc-footer-inner::before{content:"";position:absolute;right:60px;top:28px;width:80px;height:60px;border:3px solid var(--turquoise);border-radius:4px;background:repeating-linear-gradient(45deg,transparent 0 3px,rgba(0,180,216,.1) 3px 6px);transform:rotate(6deg);pointer-events:none}
+.sc-footer-nav{display:grid;grid-template-columns:repeat(2,minmax(0,max-content));gap:6px 36px;align-content:start}
+.sc-footer a,.sc-footer a:visited{color:var(--ink)}.sc-footer p{margin:10px 0 0;max-width:480px}
+.sc-footer .brand{font:400 22px/1 var(--display);color:var(--ink);text-decoration:none}
+/* home sections */
+.sec{max-width:var(--wrap);margin:0 auto;padding:72px 28px}
+.sec h2{font-size:clamp(32px,3.8vw,46px);margin:0 0 14px;letter-spacing:-.01em}
+.sec-lead{margin:0 0 36px;max-width:620px;color:var(--muted)}
+.band{background:#fff}
+/* hero — postcard split */
+.hero-home{max-width:var(--wrap);margin:0 auto;padding:64px 28px 56px;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:48px;align-items:center}
+.hero-home h1{margin:0 0 22px;font-size:clamp(44px,6vw,78px);line-height:.98;letter-spacing:-.03em}
+.hero-home h1 em{font-style:italic;color:var(--coral)}
+.hero-home .intro{margin:0 0 30px;max-width:540px;font-size:20px;color:var(--muted)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center}
+.postcard{position:relative;margin:0;justify-self:center;width:min(380px,100%);transform:rotate(1.2deg)}
+.postcard img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;border:8px solid #fff;box-shadow:0 4px 20px rgba(0,0,0,.12);border-radius:2px}
+.postcard figcaption{position:absolute;right:12px;bottom:12px;transform:rotate(-2deg);background:var(--coral);color:#fff;font:700 10px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;padding:6px 10px;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+/* destinations (paths) */
+.dests{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.dest{background:var(--card);border:2px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:12px;position:relative;transition:border-color .15s,transform .15s}
+.dest:hover{border-color:var(--turquoise);transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,180,216,.1)}
+.dest svg{width:48px;height:48px;stroke:var(--coral);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.dest h3{margin:4px 0 0;font-size:26px}
+.dest p{margin:0;color:var(--muted)}
+.dest ul{margin:4px 0 8px;padding:0;list-style:none;display:grid;gap:8px;font-size:16px}
+.dest li a{text-decoration:none}.dest li a:hover{text-decoration:underline}
+.dest .link-arrow{margin-top:auto;align-self:flex-start}
+/* numbers — postmark style */
+.nums{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;padding:32px;background:#fff;border:2px dashed var(--turquoise);position:relative}
+.nums::before{content:"\2709";position:absolute;top:-16px;left:50%;transform:translateX(-50%);font-size:24px;background:var(--cream);padding:0 12px;color:var(--coral)}
+.num{text-align:center}
+.num b{display:block;font:400 clamp(52px,5.6vw,70px)/1 var(--display);color:var(--turquoise)}
+.num b small{display:block;font-size:.3em;margin-top:4px;color:var(--coral)}
+.num p{margin:12px 0 10px;font-size:15px;color:var(--muted)}
+.num a{font-size:14px}
+/* cards — postcard-shaped */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:0;display:flex;flex-direction:column;transition:border-color .15s,transform .15s;overflow:hidden}
+.card:hover{border-color:var(--turquoise);transform:translateY(-2px)}
+.card[hidden]{display:none}
+.card .card-img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.card-body{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card .kicker{margin:0;font:700 11px/1.4 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--coral-dk)}
+.card h2,.card h3{margin:0;font-size:23px;line-height:1.2;font-weight:400}
+.card h2 a,.card h3 a,.card h2 a:visited,.card h3 a:visited{color:var(--ink);text-decoration:none}
+.card h2 a::after,.card h3 a::after{content:"";position:absolute;inset:0}
+.card p{margin:0;font-size:16px;color:var(--muted)}
+.card .stamp-date{position:absolute;top:12px;right:12px;background:var(--coral);color:#fff;font:700 10px/1 var(--body);padding:4px 8px;transform:rotate(3deg);border-radius:2px;white-space:nowrap}
+.card .card-date{font-size:13px;color:var(--muted);margin-top:4px}
+/* steps — stamp cancellation line */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;counter-reset:s;margin:0;padding:0;list-style:none;position:relative}
+.steps::before{content:"";position:absolute;left:0;right:0;top:24px;height:2px;background:repeating-linear-gradient(90deg,var(--turquoise) 0 6px,transparent 6px 14px)}
+.steps li{counter-increment:s;position:relative;padding-top:56px}
+.steps li::before{content:counter(s);display:grid;place-content:center;width:48px;height:48px;border-radius:50%;background:var(--cream);border:3px solid var(--turquoise);color:var(--coral);font:700 20px/1 var(--body);position:absolute;top:0;left:0}
+.steps h3{margin:0 0 8px;font-size:24px}
+.steps p{margin:0;color:var(--muted);font-size:16px}
+.trust{margin:40px 0 0;padding:20px 24px;background:var(--card);border-left:4px solid var(--coral);border-radius:0 var(--r) var(--r) 0;font-size:16px;color:var(--muted)}
+/* closing — postcard address style */
+.closing{background:var(--turquoise);color:#fff}
+.closing .sec{display:flex;flex-wrap:wrap;gap:24px 48px;align-items:center;justify-content:space-between;padding-top:64px;padding-bottom:64px}
+.closing h2{color:#fff;margin:0 0 12px}.closing p{margin:0;max-width:560px}
+.checks{display:flex;flex-wrap:wrap;gap:8px 22px;margin:16px 0 0;padding:0;list-style:none;font-size:15px;font-weight:600}
+.checks li::before{content:"\2713";color:#fff;margin-right:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px 12px;margin:0 0 28px;padding:0;list-style:none}
+.chips button{min-height:44px;padding:0 18px;border-radius:999px;border:2px solid var(--line);background:#fff;color:var(--ink);font:600 15px/1 var(--body);cursor:pointer}
+.chips button:hover{border-color:var(--turquoise)}
+.chips button[aria-pressed=true]{background:var(--turquoise);border-color:var(--turquoise);color:#fff}
+/* article pages */
+.masthead{border-bottom:2px solid var(--line);background:var(--cream)}
+.masthead-in{max-width:var(--wrap);margin:0 auto;padding:40px 28px 36px;display:grid;grid-template-columns:minmax(0,1fr) 200px;gap:40px;align-items:center}
+.masthead h1{margin:0 0 16px;font-size:clamp(30px,4vw,48px);line-height:1.06;letter-spacing:-.02em;max-width:820px}
+.masthead .meta{margin:0;font-size:15px;color:var(--muted)}
+.masthead .hero-photo{margin:0}.masthead .hero-photo img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;border:6px solid #fff;box-shadow:0 2px 12px rgba(0,0,0,.1);transform:rotate(-.8deg);border-radius:2px}
+.masthead .hero-photo figcaption{margin-top:8px;font-size:12px;color:var(--muted);text-align:center;font-style:italic}
+.crumbs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px;font-size:14px;color:var(--muted)}
+.crumbs a{color:var(--muted)}
+.layout{max-width:var(--wrap);margin:0 auto;padding:44px 28px 72px;display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:48px;align-items:start}
+.article{min-width:0;max-width:740px}
+.article a{color:#0066cc}.article a:visited{color:#0052a3}.article a:hover{text-decoration:underline}
+.article h2{font-size:clamp(27px,2.7vw,34px);margin:48px 0 14px;scroll-margin-top:88px}
+.article h3{font-size:23px;margin:30px 0 10px}
+.article p{margin:0 0 18px}
+.article ul,.article ol{padding-left:24px}
+.article table{width:100%;border-collapse:collapse;margin:24px 0;font-size:16px;display:block;overflow-x:auto;background:var(--card);border-radius:var(--r)}
+.article th{text-align:left;color:var(--ink);padding:12px 14px;border-bottom:2px solid var(--turquoise)}
+.article td{padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+.article details{border-bottom:1px solid var(--line);padding:16px 0;margin:0}
+.article summary{cursor:pointer;font:400 20px/1.4 var(--display);color:var(--ink)}
+.article iframe{max-width:100%;border:0;border-radius:12px}
+.article .ai-note{background:var(--card);border-left:4px solid var(--coral);border-radius:0 var(--r) var(--r) 0;padding:14px 18px;font-size:15px;color:var(--muted)}
+.sidebar{position:sticky;top:92px;display:grid;gap:20px;max-height:calc(100vh - 108px);overflow:auto;padding-left:20px;border-left:2px solid var(--line);font-size:15px}
+.sidebar h3,.sidebar h4{margin:0 0 12px;font:700 12px/1.3 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--coral-dk)}
+.sidebar p{margin:0;color:var(--muted)}
+.sidebar ol,.sidebar ul{margin:0;padding:0;list-style:none}
+.sidebar .toc ol{counter-reset:t}
+.sidebar .toc li{counter-increment:t;display:grid;grid-template-columns:26px minmax(0,1fr);gap:4px}
+.sidebar .toc li::before{content:counter(t);color:var(--coral-dk);font:700 14px/1.8 var(--body)}
+.sidebar li a{display:block;padding:5px 0;line-height:1.45;color:var(--ink);text-decoration:none}
+.sidebar li a:hover{color:var(--coral-dk)}
+/* static pages */
+.wrap{max-width:var(--wrap);margin:0 auto;padding:40px 28px 72px}
+.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:48px;align-items:start}
+.panel{min-width:0;max-width:740px}
+.panel h1{font-size:clamp(34px,4vw,50px);margin:0 0 18px}
+.panel h2{font-size:28px;margin:36px 0 12px}
+.follow-sidebar-panel{padding-left:20px;border-left:2px solid var(--line);font-size:15px}
+.follow-sidebar-panel h2{margin:0 0 12px;font:700 12px/1.3 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--coral-dk)}
+.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}.follow-sidebar-panel a{display:block;padding:5px 0;color:var(--ink)}
+[data-follow-sidebar]{position:sticky;top:92px}
+/* breakpoints */
+@media(min-width:1025px) and (max-width:1439px){:root{--wrap:1080px}.hero-home h1{font-size:clamp(44px,5.2vw,68px)}body{font-size:17px}}
+@media(max-width:1024px){.dests,.nums{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.steps::before{display:none}.steps li{padding-top:0;padding-left:64px}.steps li::before{top:0;left:0}.layout{gap:36px;grid-template-columns:minmax(0,1fr) 250px}.card-body{padding:16px}}
+@media(max-width:860px){.hero-home{grid-template-columns:1fr;padding-top:44px;gap:32px}.postcard{max-width:300px;grid-row:1}
+.masthead-in{grid-template-columns:1fr}.masthead .hero-photo{display:none}
+.layout,.follow-sidebar-layout{grid-template-columns:1fr}.sidebar,[data-follow-sidebar]{position:static;max-height:none;border-left:0;padding-left:0;margin-top:24px}
+.sec{padding:52px 22px}.closing .sec{flex-direction:column;text-align:center}}
+@media(max-width:600px){body{font-size:17px}.dests,.nums,.steps{grid-template-columns:1fr}.num{border-bottom:1px solid var(--line);padding-bottom:20px}.num:last-child{border-bottom:0}
+.card{grid-template-columns:1fr}.card-img{aspect-ratio:16/9}
+.sc-topbar-inner,.masthead-in,.layout,.wrap,.sec,.hero-home{padding-left:16px;padding-right:16px}.tag{width:100%;max-width:360px;justify-content:center}.hero-home .intro{font-size:18px}}
+</style>
 </head>
 <body>
+<a class="skip" href="#content">Skip to content</a>
 <header class="sc-topbar">
   <div class="sc-topbar-inner">
     <a class="sc-topbar-brand" href="/">Havanese Guide</a>
-    <nav>
-      <ul class="sc-topbar-nav">
-        <li><a href="/" aria-current="page">Home</a></li>
-        <li><a href="/blog.html">Blog</a></li>
-        <li><a href="/care.html">Care</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-        <li><a href="/sitemap.html">Sitemap</a></li>
-      </ul>
-    </nav>
+    <nav aria-label="Main"><ul class="sc-topbar-nav"><li class="cta"><a href="/blog.html">All guides</a></li><li><a href="/blog.html#puppy">Puppy Days</a></li><li><a href="/blog.html#daily">Daily Life</a></li><li><a href="/blog.html#travel">Trips & Travel</a></li><li><a href="/about.html">About</a></li></ul></nav>
+    <details class="sheet"><summary aria-label="Menu"><span></span><span></span><span></span></summary><nav class="sheet-panel" aria-label="Mobile"><a href="/blog.html">All guides</a><a href="/blog.html#puppy">Puppy Days</a><a href="/blog.html#daily">Daily Life</a><a href="/blog.html#travel">Trips & Travel</a><div class="minor"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/editorial-policy.html">Editorial policy</a><a href="/sitemap.html">Sitemap</a></div></nav></details>
   </div>
 </header>
-
-
-<!-- TOP BAR -->
-
-
-
-<!-- BREADCRUMB -->
-<div class="breadcrumb">
-  <div class="breadcrumb-inner">
-    <a href="/">Home</a><span>›</span> Havanese Guide
+<main id="content">
+<section class="hero-home" aria-labelledby="hero-h">
+  <div>
+    <p class="label"><b>01</b> / For Havanese owners</p>
+    <h1 id="hero-h">Small dog. Big trips. <em>Pack smart.</em></h1>
+    <p class="intro">From potty training to road trips, every guide on this site comes from real owner experience and links to its sources. Use the packing list generator to get your Havanese ready for the next adventure.</p>
+    <div class="hero-actions"><a class="tag" href="#dests">Choose a destination</a><a class="link-arrow" href="#how">How the guides work</a></div>
   </div>
-</div>
-
-<!-- PAGE LAYOUT -->
-<section class="sd-cover sd-poster">
-  <div class="sd-cover-text">
-    <h1>Everything About Havanese Dogs</h1>
-    <p class="intro">Your complete resource for Havanese lovers — breed facts, health tips, training advice, and national day ideas.</p>
-    <div class="categories">
-      <span class="cat-tag">Care Tips</span>
-      <span class="cat-tag">Breed Facts</span>
-      <span class="cat-tag">Health</span>
-      <span class="cat-tag">Training</span>
-    </div>
-  </div>
-  <figure class="sd-art home-editorial-photo" data-home-photo="20261025"><img src="/assets/home-editorial-20261025.webp" alt="cream Havanese with a silky coat sitting on a garden bench" width="1536" height="1024" fetchpriority="high" decoding="async" data-ai-generated="true"><figcaption>AI-generated illustration.</figcaption></figure>
+  <figure class="postcard"><img src="/assets/home-editorial-20261025.webp" alt="cream Havanese with a silky coat sitting on a garden bench" width="1536" height="1024" fetchpriority="high" decoding="async" data-ai-generated="true"><figcaption>Havana, via Havanese Guide</figcaption></figure>
 </section>
-<div class="page-wrap" data-follow-parent="true">
-
-  <!-- MAIN CONTENT -->
-  <main class="main-content">
-
-    
-        <article style="background:#f9f9f9; border-left:4px solid #1e40af; padding:20px; margin-bottom:24px; border-radius:4px;">
-            <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/havanese-daily-walk-time.html" style="color:#18338c; text-decoration:none;">Havanese Daily Walk Time: 26 Owners vs Breed-Guide Advice</a>
-            </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-11-03</p>
-            <p style='color:#555; margin:8px 0 0;'>Havanese daily walk time from 26 real owners: median 50 minutes, about 2 mph, vs the 20–30 minutes breed guides list. Check your routine with our tool.</p>
-        </article>
-        <article style="background:#f9f9f9; border-left:4px solid #1e40af; padding:20px; margin-bottom:24px; border-radius:4px;">
-            <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/havanese-car-ride-training.html" style="color:#18338c; text-decoration:none;">Havanese Car Ride Training: Stop Whining and Lap-Jumping</a>
-            </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-11-01</p>
-            <p style='color:#555; margin:8px 0 0;'>Havanese car ride training: fix whining and lap-jumping with a crate or harness spot, an 8-step ladder, a session tracker and the mistakes to avoid.</p>
-        </article>
-        <article style="background:#f9f9f9; border-left:4px solid #1e40af; padding:20px; margin-bottom:24px; border-radius:4px;">
-            <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/havanese-potty-tray-to-outdoor.html" style="color:#18338c; text-decoration:none;">Havanese Potty Tray to Outdoor: Teach Both, Fix No-Pee Walks</a>
-            </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-10-26</p>
-            <p style='color:#555; margin:8px 0 0;'>Havanese potty tray to outdoor: 6 indoor setups compared, a plan to use the tray and the yard, and how to fix a Havanese that won&#x27;t pee outside.</p>
-        </article>
-        <article style="background:#f9f9f9; border-left:4px solid #1e40af; padding:20px; margin-bottom:24px; border-radius:4px;">
-            <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/havanese-size-owner-weights.html" style="color:#18338c; text-decoration:none;">Havanese Size: Real Owner Weights vs the 7-13 lb Standard</a>
-            </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-10-18</p>
-            <p style='color:#555; margin:8px 0 0;'>How big do Havanese get? We compared 71 owner-reported adult weights with the AKC, UKC and FCI standards. See why many healthy Havanese top 13 lb.</p>
-        </article>
-        <article style="background:#f9f9f9; border-left:4px solid #1e40af; padding:20px; margin-bottom:24px; border-radius:4px;">
-            <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/havanese-window-doorbell-barking.html" style="color:#18338c; text-decoration:none;">Havanese Window and Doorbell Barking: A Calm Plan</a>
-            </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-10-14</p>
-            <p style='color:#555; margin:8px 0 0;'>Reduce Havanese window and doorbell barking with a clear training plan: manage triggers, teach calm alternatives, and rehearse visitor arrivals step by step.</p>
-        </article>
-        <article style="background:#f9f9f9; border-left:4px solid #1e40af; padding:20px; margin-bottom:24px; border-radius:4px;">
-            <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/havanese-puppy-independence.html" style="color:#18338c; text-decoration:none;">Havanese Puppy Independence: When Clinginess Eases</a>
-            </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-10-14</p>
-            <p style='color:#555; margin:8px 0 0;'>When does a Havanese puppy become less clingy? Compare owner milestones, check readiness, and build naps and alone-time skills with a gradual training plan.</p>
-        </article>
-        <article style="background:#f9f9f9; border-left:4px solid #1e40af; padding:20px; margin-bottom:24px; border-radius:4px;">
-            <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/havanese-coat-change-mats.html" style="color:#18338c; text-decoration:none;">Havanese Coat Change: Prevent Mats Without a Fight</a>
-            </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-10-08</p>
-            <p style='color:#555; margin:8px 0 0;'>Havanese coat change can make brushing difficult. Learn gentle mat prevention, a reward-based brushing plan, and when a groomer or vet should take over safely.</p>
-        </article>
-        <article style="background:#f9f9f9; border-left:4px solid #1e40af; padding:20px; margin-bottom:24px; border-radius:4px;">
-            <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/havanese-grooming-schedule-at-home.html" style="color:#18338c; text-decoration:none;">Havanese Grooming Schedule At Home</a>
-            </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-26</p>
-            <p style='color:#555; margin:8px 0 0;'>Owning a Havanese comes with a special privilege: crafting a Havanese grooming schedule at home that is as unique as your dog. While many breed guides offer…</p>
-        </article>
-        
-    
-  </main>
-
-  <!-- SIDEBAR -->
-  <aside class="sidebar" data-follow-sidebar="existing">
-    
-    
-
-    <div class="sidebar-about">
-      <strong>About Havanese Guide</strong>
-      Dedicated to Havanese owners and enthusiasts. In-depth guides, care tips, and national dog day coverage.
-    </div>
-
-    <div class="sidebar-links">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="/blog.html">Latest Articles</a></li>
-        <li><a href="/care.html">Havanese Care Guide</a></li>
-        <li><a href="/about.html">About Us</a></li>
-        <li><a href="/privacy.html">Privacy</a></li>
-        <li><a href="/sitemap.html">Sitemap</a></li>
-      </ul>
-      <h4>Latest articles</h4><ul><li><a href="/havanese-daily-walk-time.html">Havanese Daily Walk Time: 26 Owners vs Breed-Guide Advice</a></li><li><a href="/havanese-car-ride-training.html">Havanese Car Ride Training: Stop Whining and Lap-Jumping</a></li><li><a href="/havanese-potty-tray-to-outdoor.html">Havanese Potty Tray to Outdoor: Teach Both, Fix No-Pee Walks</a></li><li><a href="/havanese-size-owner-weights.html">Havanese Size: Real Owner Weights vs the 7-13 lb Standard</a></li><li><a href="/havanese-window-doorbell-barking.html">Havanese Window and Doorbell Barking: A Calm Plan</a></li><li><a href="/havanese-puppy-independence.html">Havanese Puppy Independence: When Clinginess Eases</a></li></ul>
-    </div>
-  </aside>
-
-</div>
-
-<!-- FULL-WIDTH EMAIL BLOCK (wszystkie blogi) -->
-
-
-<!-- FOOTER -->
-
-
-
-
-<script>
-  function handleSidebarSubmit(e) {
-    e.preventDefault();
-    var btn = e.target.querySelector('button');
-    btn.textContent = 'Thanks! ✓';
-    return false;
-  }
-  function handleBannerSubmit() {
-    var em = document.getElementById('banner-email');
-    if (!em || !em.value.includes('@')) return;
-    em.value = '';
-    em.placeholder = 'Thanks! ✓';
-    em.disabled = true;
-  }
-  function handleBottomSubmit() {
-    var em = document.getElementById('bottom-email');
-    if (!em || !em.value.includes('@')) return;
-    em.value = '';
-    em.placeholder = 'Thanks! ✓';
-    em.disabled = true;
-  }
-  function handleEmbedSubmit(e) {
-    e.preventDefault();
-    var btn = e.target.querySelector('button');
-    btn.textContent = 'Thanks! ✓';
-    return false;
-  }
-</script>
-<footer class="sc-footer">
-  <div class="sc-footer-nav">
-    <a href="/">Home</a>
-    <a href="/blog.html">Blog</a>
-    <a href="/about.html">About</a>
-    <a href="/contact.html">Contact</a>
-    <a href="/privacy.html">Privacy</a>
-    <a href="/sitemap.html">Sitemap</a>
+<section class="sec" id="dests" aria-labelledby="dests-h">
+  <p class="label"><b>02</b> / Where to go</p>
+  <h2 id="dests-h">Three destinations</h2>
+  <p class="sec-lead">Every guide on this site belongs to one of these. Pick the one that fits your question today.</p>
+  <div class="dests"><div class="dest"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 22c0-5 4-8 12-8s12 3 12 8"/><path d="M14 22v12c0 2 2 4 4 4h12c2 0 4-2 4-4V22"/><circle cx="18" cy="20" r="2"/><circle cx="30" cy="20" r="2"/><path d="M24 26v10"/></svg><h3>Puppy Days</h3><p>Potty training, coat change and building independence — everything for the first year.</p><ul><li><a href="/havanese-potty-tray-to-outdoor.html">Havanese Potty Tray to Outdoor: Teach Both, Fix No-Pee Walks</a></li><li><a href="/havanese-puppy-independence.html">Havanese Puppy Independence: When Clinginess Eases</a></li><li><a href="/havanese-coat-change-mats.html">Havanese Coat Change: Prevent Mats Without a Fight</a></li></ul><a class="link-arrow" href="/blog.html#puppy">See puppy days guides</a></div><div class="dest"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 15C14 9 9 5 4 8"/><path d="M34 15c0-6 5-10 10-7"/><path d="M24 18c-6 0-10 4-10 10"/><path d="M24 18c6 0 10 4 10 10"/><path d="M24 18v22"/><circle cx="24" cy="20" r="2"/></svg><h3>Daily Life</h3><p>Walking, grooming routine, size expectations and what real owners do each day.</p><ul><li><a href="/havanese-daily-walk-time.html">Havanese Daily Walk Time: 26 Owners vs Breed-Guide Advice</a></li><li><a href="/havanese-size-owner-weights.html">Havanese Size: Real Owner Weights vs the 7-13 lb Standard</a></li><li><a href="/havanese-window-doorbell-barking.html">Havanese Window and Doorbell Barking: A Calm Plan</a></li><li><a href="/havanese-grooming-schedule-at-home.html">7 Grooming Tasks: Home Havanese Care Guide</a></li></ul><a class="link-arrow" href="/blog.html#daily">See daily life guides</a></div><div class="dest"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="14" width="28" height="24" rx="4"/><circle cx="24" cy="26" r="6"/><path d="M24 20v12M18 26h12"/><rect x="16" y="8" width="16" height="6" rx="2"/></svg><h3>Trips & Travel</h3><p>Car rides, packing lists and getting your Havanese ready for the road.</p><ul><li><a href="/havanese-car-ride-training.html">Havanese Car Ride Training: Stop Whining and Lap-Jumping</a></li></ul><a class="link-arrow" href="/blog.html#travel">See trips & travel guides</a></div></div>
+</section>
+<section class="band" aria-labelledby="nums-h"><div class="sec">
+  <p class="label"><b>03</b> / In numbers</p>
+  <h2 id="nums-h">Havanese Guide by the numbers</h2>
+  <p class="sec-lead">Real figures from the guides on this site, each one linked to its source.</p>
+  <div class="nums"><div class="num"><b>3<small></small></b><p>paths through the site covering every guide</p><a href="/havanese-potty-tray-to-outdoor.html">See the data</a></div><div class="num"><b>26<small>owners</small></b><p>shared their daily walk routines for our tally</p><a href="/havanese-daily-walk-time.html">See the data</a></div><div class="num"><b>8<small>guides</small></b><p>covering puppy care, grooming, travel and daily life</p><a href="/havanese-grooming-schedule-at-home.html">See the data</a></div><div class="num"><b>0<small></small></b><p>sign-ups. No email list, ever.</p><a href="/havanese-size-owner-weights.html">See the data</a></div></div>
+</div></section>
+<section class="sec" id="latest" aria-labelledby="latest-h">
+  <p class="label"><b>04</b> / Latest guides</p>
+  <h2 id="latest-h">Newest first</h2>
+  <div class="cards">
+<article class="card" data-path="daily">
+  <img class="card-img" src="/assets/home-editorial-20261025.webp" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  <div class="card-body">
+    <p class="kicker">Daily Life</p>
+    <h3><a href="/havanese-daily-walk-time.html">Havanese Daily Walk Time: 26 Owners vs Breed-Guide Advice</a></h3>
+    <p class="card-date">2026-11-03</p>
+    <p>Havanese daily walk time from 26 real owners: median 50 minutes, about 2 mph, vs the 20–30 minutes breed guides list. Check your routine with our tool.</p>
   </div>
-  <p>&copy; 2026 havanese-club.github.io &mdash; Havanese Guide. All rights reserved.</p>
+</article>
+<article class="card" data-path="travel">
+  <img class="card-img" src="/assets/home-editorial-20261025.webp" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  <div class="card-body">
+    <p class="kicker">Trips & Travel</p>
+    <h3><a href="/havanese-car-ride-training.html">Havanese Car Ride Training: Stop Whining and Lap-Jumping</a></h3>
+    <p class="card-date">2026-11-01</p>
+    <p>Havanese car ride training: fix whining and lap-jumping with a crate or harness spot, an 8-step ladder, a session tracker and the mistakes to avoid.</p>
+  </div>
+</article>
+<article class="card" data-path="puppy">
+  <img class="card-img" src="/assets/home-editorial-20261025.webp" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  <div class="card-body">
+    <p class="kicker">Puppy Days</p>
+    <h3><a href="/havanese-potty-tray-to-outdoor.html">Havanese Potty Tray to Outdoor: Teach Both, Fix No-Pee Walks</a></h3>
+    <p class="card-date">2026-10-26</p>
+    <p>Havanese potty tray to outdoor: 6 indoor setups compared, a plan to use the tray and the yard, and how to fix a Havanese that won&#x27;t pee outside.</p>
+  </div>
+</article>
+<article class="card" data-path="daily">
+  <img class="card-img" src="/assets/home-editorial-20261025.webp" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  <div class="card-body">
+    <p class="kicker">Daily Life</p>
+    <h3><a href="/havanese-size-owner-weights.html">Havanese Size: Real Owner Weights vs the 7-13 lb Standard</a></h3>
+    <p class="card-date">2026-10-18</p>
+    <p>How big do Havanese get? We compared 71 owner-reported adult weights with the AKC, UKC and FCI standards. See why many healthy Havanese top 13 lb.</p>
+  </div>
+</article>
+<article class="card" data-path="puppy">
+  <img class="card-img" src="/assets/home-editorial-20261025.webp" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  <div class="card-body">
+    <p class="kicker">Puppy Days</p>
+    <h3><a href="/havanese-puppy-independence.html">Havanese Puppy Independence: When Clinginess Eases</a></h3>
+    <p class="card-date">2026-10-14</p>
+    <p>When does a Havanese puppy become less clingy? Compare owner milestones, check readiness, and build naps and alone-time skills with a gradual training plan.</p>
+  </div>
+</article>
+<article class="card" data-path="daily">
+  <img class="card-img" src="/assets/home-editorial-20261025.webp" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  <div class="card-body">
+    <p class="kicker">Daily Life</p>
+    <h3><a href="/havanese-window-doorbell-barking.html">Havanese Window and Doorbell Barking: A Calm Plan</a></h3>
+    <p class="card-date">2026-10-14</p>
+    <p>Reduce Havanese window and doorbell barking with a clear training plan: manage triggers, teach calm alternatives, and rehearse visitor arrivals step by step.</p>
+  </div>
+</article>
+<article class="card" data-path="puppy">
+  <img class="card-img" src="/assets/home-editorial-20261025.webp" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  <div class="card-body">
+    <p class="kicker">Puppy Days</p>
+    <h3><a href="/havanese-coat-change-mats.html">Havanese Coat Change: Prevent Mats Without a Fight</a></h3>
+    <p class="card-date">2026-10-08</p>
+    <p>Havanese coat change can make brushing difficult. Learn gentle mat prevention, a reward-based brushing plan, and when a groomer or vet should take over safely.</p>
+  </div>
+</article>
+<article class="card" data-path="daily">
+  <img class="card-img" src="/assets/home-editorial-20261025.webp" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+  <div class="card-body">
+    <p class="kicker">Daily Life</p>
+    <h3><a href="/havanese-grooming-schedule-at-home.html">7 Grooming Tasks: Home Havanese Care Guide</a></h3>
+    <p class="card-date">2026-05-26</p>
+    <p>Owning a Havanese comes with a special privilege: crafting a Havanese grooming schedule at home that is as unique as your dog. While many breed guides offer…</p>
+  </div>
+</article>
+</div>
+</section>
+<section class="band" id="how" aria-labelledby="how-h"><div class="sec">
+  <p class="label"><b>05</b> / How the guides are made</p>
+  <h2 id="how-h">From a question to your answer</h2>
+  <ol class="steps"><li><h3>Spot a question</h3><p>We find the questions owners keep asking in forums, groups and comments.</p></li><li><h3>Check the sources</h3><p>Every figure and fact is linked to the page it came from so you can see the original.</p></li><li><h3>Build a tool</h3><p>Each guide has a small working tool — a checker, planner or generator you can try on your own dog.</p></li><li><h3>Read and check</h3><p>Written with AI help, read by a person before it goes live.</p></li></ol>
+  <p class="trust">Havanese Guide is not a vet clinic. Guides describe what owners report and what published sources say, and link each source in the text. Written with AI assistance, checked by a person before publishing. <a href="/editorial-policy.html">Read the editorial policy</a>.</p>
+</div></section>
+<section class="closing" aria-labelledby="close-h"><div class="sec">
+  <h2 id="close-h">Have a question we have not answered?</h2>
+  <p>Tell us what you want to see next. The most requested topics become the next guides.</p>
+  <a class="tag light" href="/contact.html">Suggest a topic</a>
+  <ul class="checks"><li>No sign-up</li><li>No email</li><li>Free and public</li></ul>
+</div></section>
+</main>
+<footer class="sc-footer">
+  <div class="sc-footer-inner">
+    <div><a class="brand" href="/">Havanese Guide</a><p>Practical guides for Havanese owners on grooming, temperament, training and daily care. Written with AI assistance, checked by a person before publishing. Not a veterinary clinic.</p><p>&copy; 2026 Havanese Guide</p></div>
+    <nav class="sc-footer-nav" aria-label="Footer"><a href="/blog.html">All guides</a><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/editorial-policy.html">Editorial policy</a><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a><a href="/sitemap.html">Sitemap</a></nav>
+  </div>
 </footer>
 </body>
 </html>
